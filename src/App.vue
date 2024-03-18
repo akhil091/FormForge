@@ -34,7 +34,7 @@ function updatedCode(codeInputMeta) {
             <h3 class="text-sm text-neutral-400 font-lighter dark:text-neutral-400">
                 Revolutionize your form creation experience with our dynamic form builder. Craft your forms effortlessly in the builder below, then seamlessly transfer the generated code into your project for a swift integration.
                 <br/>
-                Built using Vue and Tailwind CSS.
+                Built using Vue and Tailwind CSS by <a href="https://akhilchandail.in">Akhil Chandail</a>.
             </h3>
         </header>
         <div class="pb-8 flex w-full xs-mobile:space-y-12 md:space-y-0 xs-mobile:flex-col xs-mobile:divide-y md:flex-row md:divide-y-0">
@@ -46,6 +46,5 @@ function updatedCode(codeInputMeta) {
                 <FormBuilderContainer :pushCounter="pushNewInput" :input="newInput" @codeUpdated="updatedCode" />
             </div>
         </div>
-        <footer class="font-roboto h-64 inline-flex flex-col justify-center">Developed by <a href="https://akhilchandail.in">Akhil Chandail</a></footer>
     </div>
 </template>
