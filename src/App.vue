@@ -46,6 +46,6 @@ function updatedCode(codeInputMeta) {
                 <FormBuilderContainer :pushCounter="pushNewInput" :input="newInput" @codeUpdated="updatedCode" />
             </div>
         </div>
-        <footer>Developed by <a href="https://akhilchandail.in">Akhil Chandail</a></footer>
+        <footer class="font-roboto h-64 inline-flex flex-col justify-center">Developed by <a href="https://akhilchandail.in">Akhil Chandail</a></footer>
     </div>
 </template>
